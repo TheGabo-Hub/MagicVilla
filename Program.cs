@@ -1,4 +1,8 @@
+
+
 //Gabriel Ocampo Salgado
+
+
 
 using MagicVillaWeb;
 using MagicVillaWeb.Services;
@@ -12,7 +16,10 @@ builder.Services.AddAutoMapper(typeof(MappingConfig));
 
 builder.Services.AddHttpClient<IVillaService, VillaService>();
 
+
 builder.Services.AddScoped<IVillaService,VillaService>();
+
+
 
 var app = builder.Build();
 
@@ -24,7 +31,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+
+// app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -33,6 +42,8 @@ app.UseAuthorization();
 
 // app.MapRazorPages();
 app.MapControllerRoute(
-    name:"default",
-    pattern:"{controller=Home}/{action=Index}/{id?}");
+
+name: "default",
+pattern: "{controller=Home}/{action= Index}/{id?}");
+
 app.Run();

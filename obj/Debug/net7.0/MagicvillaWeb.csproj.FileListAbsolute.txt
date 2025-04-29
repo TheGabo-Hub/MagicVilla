@@ -35,6 +35,7 @@ C:\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.genruntimeconfig.cache
 C:\NET\MagicVillaWeb\obj\Debug\net7.0\ref\MagicvillaWeb.dll
 C:\NET\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.dll
 C:\NET\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+<<<<<<< HEAD
 C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\appsettings.json
 C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicvillaWeb.staticwebassets.runtime.json
@@ -72,3 +73,5 @@ C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net
 C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.pdb
 C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\ref\MagicvillaWeb.dll
+=======
+>>>>>>> 3ebbbaae086e71a5c485db92b21805c89877d6dc

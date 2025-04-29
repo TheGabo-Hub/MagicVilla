@@ -1,0 +1,39 @@
+﻿<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+@* Vamos a necesitar un TempData, ques on datos temporales que nosotros podemos usar.
+Son datos que uno los utiliza y se borran en el momento en la cual se desplegan *@
+
+@* Si una TempData que vamos a llenar y le pasamo el nombre como se va llamar en este
+caso exitoso, Si esa Tempdata es diferente de null, es decir que si tiene
+contenido en el momento en que en que se lo llena. *@
+
+@if(TempData["exitoso"] !=null)
+{
+    <script>
+        @* buscamos top-end *@
+        Swal.fire({
+         position: 'top-end',
+         icon: 'success',
+         title: '@TempData["exitoso"]',
+         showConfirmButton: false,
+         @* timer: 1500 *@
+         timer: 3000
+         })
+    </script>
+}
+
+@if(TempData["error"] !=null)
+{
+    <script>
+        @* buscamos top-end *@
+        Swal.fire({
+         position: 'top-end',
+         @* icon: 'success', *@
+         icon: 'error',
+         title: '@TempData["error"]',
+         showConfirmButton: false,
+         @* timer: 1500 *@
+         timer: 3000
+         })
+    </script>
+}

@@ -1,0 +1,103 @@
+@* Para este vista se necesita el modelo VillaCreateDto *@
+@* con este modelo va poder accerder a cada una de las propiedades *@
+@model MagicVillaWeb.Models.Dto.VillaCreateDto
+
+@{
+    ViewData["Title"] = "CrearVilla";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="CrearVilla">
+     @* p-3 padding de 3 *@
+    <div class="container border p-3"> 
+        @* usamos un tag-helper llamado asp-validation-summary
+        que se va a encargar de mostrarme todos los errores
+        a nivel del modelo que podrían ocurrir. 
+        Es decir, si no estoy enviando un una propiedad que es requerida
+         me lo va a mostrar con la clase de color rojo*@
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+         @* row=fila *@
+        <div class="row"> 
+            <h2 class="text-info">Crear Nueva Villa</h2>
+        </div>
+          @* mt-2: margin top 2 *@
+        <div class="row mt-2">
+            @* col-md-6: columa de tamaño mediano de 6 *@
+            <div class="col-md-6">
+                <label class="form-label">Nombre de la Villa</label>
+                @* En el inpup usamo un tag-helper as-for que sirve para relacionarlo
+                con la propiedad del modelo. *@
+                <input asp-for="Nombre" class="form-control" />
+                @* usamos un span para colocar el mensaje de error si existio
+                con el tag-helper  asp-validation-for. *@
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Tarifa</label>
+                <input asp-for="Tarifa" class="form-control" />
+                <span asp-validation-for="Tarifa" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Detalle</label>
+                <textarea asp-for="Detalle" class="form-control" ></textarea>
+                <span asp-validation-for="Detalle" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Imagen</label>
+                <input asp-for="ImagenUrl" class="form-control" />
+                <span asp-validation-for="ImagenUrl" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Ocupantes</label>
+                <input asp-for="Ocupantes" class="form-control" />
+                <span asp-validation-for="Ocupantes" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Metros Cuadrados</label>
+                <input asp-for="MetrosCuadrados" class="form-control" />
+                <span asp-validation-for="MetrosCuadrados" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Amenidad</label>
+                <textarea asp-for="Amenidad" class="form-control" ></textarea>
+                <span asp-validation-for="Amenidad" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-primary">Grabar</button>
+            <a asp-controller="Villa" asp-action="IndexVilla" class="btn btn-success">Regresar</a>
+        </div>
+
+
+    </div>
+
+</form>
+
+@* para cada una de estas validaciones, como se presentan, se presentan
+gracias a una sección de script, deonde llamaremos una vista parcial que es 
+la encargada de mostrarme todos esos errores a nivel de de cliente para 
+que no me vaya al servidor, sino que a nivel de cliente, est vista parcial 
+se encuentra en la carpeta share y se llama __ValidationScriptsPartial.cshtl *@
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
