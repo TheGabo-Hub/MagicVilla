@@ -13,7 +13,7 @@ using Newtonsoft.Json;
 
 namespace MagicVillaWeb.Controllers
 {
-    [Route("[controller]")]
+    // [Route("[controller]")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
