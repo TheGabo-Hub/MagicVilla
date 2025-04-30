@@ -373,16 +373,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\gabri\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\estra\\.nuget\\packages\\": {}
->>>>>>> 3ebbbaae086e71a5c485db92b21805c89877d6dc
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
       "projectName": "MagicvillaWeb",
       "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
@@ -391,16 +386,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-      "projectUniqueName": "C:\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
-      "projectName": "MagicvillaWeb",
-      "projectPath": "C:\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
-      "packagesPath": "C:\\Users\\estra\\.nuget\\packages\\",
-      "outputPath": "C:\\NET\\MagicVillaWeb\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\estra\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 3ebbbaae086e71a5c485db92b21805c89877d6dc
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -412,13 +397,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj": {
               "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj"
-=======
-            "C:\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj": {
-              "projectPath": "C:\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj"
->>>>>>> 3ebbbaae086e71a5c485db92b21805c89877d6dc
             }
           }
         }
@@ -468,5 +448,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "rrfu+/LiZxqz0nAQbWTwrNlNwBVqNvb0qLbEhp3Ow/MQTDZs9eMpUp9joglPRaiORhLrbp5vkcIwBBb33kienw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
@@ -13,20 +12,13 @@
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
-=======
-  "dgSpecHash": "BsW/c72MFOpPaL6EDpTaYdNGAlmKwMzBZc9dfMaADL5aGbP9CJCeYDxV+sVr0q4hP13N//sjWNzIDLvWJBbsLg==",
-  "success": true,
-  "projectFilePath": "C:\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\estra\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\estra\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
-    "C:\\Users\\estra\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\estra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\estra\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\estra\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\estra\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\estra\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
->>>>>>> 3ebbbaae086e71a5c485db92b21805c89877d6dc
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
