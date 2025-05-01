@@ -4,8 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using MagicvillaWeb.Modelos.Dto;
 using MagicVillaWeb.Modelos;
+using MagicVillaWeb.Modelos.Dto;
 using MagicVillaWeb.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -19,19 +19,22 @@ namespace MagicVillaWeb.Controllers
         private readonly IVillaService _villaService;
         private readonly IMapper _mappers;
 
-        public VillaController(IVillaService villaService, IMapper mappers)
+
+        public VillaController(IVillaService villaService,IMapper mappers, ILogger<VillaController> logger)
         {
-            _villaService = villaService;
-            _mappers = mappers;
+            _villaService=villaService;
+            _mappers=mappers;
+
         }
 
         public async Task<IActionResult> IndexVilla()
         {
-            List<VillaDto> villalist = new();
-            var response = await _villaService.ObtenerTodos<APIResponse>();
-            if (Response == null && response.IsExitoso)
-            {
-                villalist = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Resultado)!)!;
+            List<VillaDto> villalist= new();
+            var response = await _villaService.ObtenerTodos<ApiResponse>();
+            if (response !=null && response.IsExitoso){
+
+               villalist=JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Resultado)!)!;
+
             }
             return View(villalist);
         }

@@ -8,9 +8,8 @@ namespace MagicVillaWeb.Services
 {
     public interface IBaseService
     {
-        public APIResponse responseModel { get; set; }
+        public ApiResponse responseModel {get; set;}
 
-        Task<T> SendAsync<T>(APIRequest apiRequest);
-
+        Task<T> SendAsync<T> (APIRequest apiRequest);
     }
 }

@@ -1,7 +1,6 @@
-
-
-//Gabriel Ocampo Salgado
-
+//ISC
+//Jorge Eduardo Arizmendi Jacobo
+//10/04/2025
 
 
 using MagicVillaWeb;
@@ -11,39 +10,31 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
 builder.Services.AddAutoMapper(typeof(MappingConfig));
-
-builder.Services.AddHttpClient<IVillaService, VillaService>();
-
-
+builder.Services.AddHttpClient<IVillaService,VillaService>();
 builder.Services.AddScoped<IVillaService,VillaService>();
-
-
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    // app.UseHsts();
 }
 
-
-// app.UseHttpsRedirection();
-
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
 
-// app.MapRazorPages();
+//app.MapRazorPages();
 app.MapControllerRoute(
+    name: "default",
+    pattern:"{controller=Home}/{action=Index}/{id?}");
 
-name: "default",
-pattern: "{controller=Home}/{action= Index}/{id?}");
 
 app.Run();

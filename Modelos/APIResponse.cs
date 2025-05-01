@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 
 namespace MagicVillaWeb.Modelos
 {
-    public class APIResponse
+    public class ApiResponse
     {
-
-        public APIResponse()
+        //Va a retornar el código de esado de Endpoint
+        public ApiResponse()
         {
             ErrorMessages = new List<string>();
         }
-        //va a retornar el codigo de estado del Endpoint
         public HttpStatusCode statusCode { get; set; }
-        //checar si fue exitoso la solicitud
+            
+
+        //Checar si la solicitud es exitosa
         public bool IsExitoso { get; set; } = true;
-        //Esto va a ser una lista de tipo string de todos los errores que se presentan
-        public List<String>? ErrorMessages { get; set; }
-        //El resultado es de tipo objeto porque el resultado del endpoint puede ser una lista,
-        //puede ser un objeto , etc
+        
+        //Esta va a ser una lista string de todos los errores que se epresenten
+        public List <string>? ErrorMessages { get; set; }
+
+        //El resultado es de tipo objetoporque el resultado del endpoint puede ser lista, objeto, etc.
         public object? Resultado { get; set; }
     }
 }

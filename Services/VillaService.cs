@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MagicVilla_utilidad;
-using MagicvillaWeb.Modelos.Dto;
+using MagicVillaWeb.Modelos.Dto;
 
 namespace MagicVillaWeb.Services
 {
@@ -11,25 +11,25 @@ namespace MagicVillaWeb.Services
     {
         public readonly new IHttpClientFactory _httpClient;
         private string _villaUrl;
-        public VillaService(IHttpClientFactory httpClient, IConfiguration configuration) : base(httpClient)
+        public VillaService(IHttpClientFactory httpClient, IConfiguration configuration):base(httpClient)
         {
-            _httpClient = httpClient;
-            _villaUrl = configuration.GetValue<string>("ServiceUrls: API_URL")!;
+
+            _httpClient=httpClient;
+            _villaUrl = configuration.GetValue<String>("ServiceUrls:API_URL")!;
+            
         }
         public Task<T> Actualizar<T>(VillaUpdateDto dto)
         {
-            return SendAsync<T>(new Modelos.APIRequest()
-            {
+            return SendAsync<T> (new Modelos.APIRequest(){
                 APITipo = DS.APITipo.PUT,
                 Datos = dto,
                 Url = _villaUrl + "/api/villa/" + dto.Id
             });
         }
 
-        public Task<T> Crear<T>(villaCreateDto dto)
+        public Task<T> Crear<T>(VillaCreateDto dto)
         {
-            return SendAsync<T>(new Modelos.APIRequest()
-            {
+            return SendAsync<T> (new Modelos.APIRequest(){
                 APITipo = DS.APITipo.POST,
                 Datos = dto,
                 Url = _villaUrl + "/api/villa"
@@ -38,8 +38,7 @@ namespace MagicVillaWeb.Services
 
         public Task<T> Obtener<T>(int id)
         {
-            return SendAsync<T>(new Modelos.APIRequest()
-            {
+            return SendAsync<T> (new Modelos.APIRequest(){
                 APITipo = DS.APITipo.GET,
                 Url = _villaUrl + "/api/villa/" + id
             });
@@ -47,8 +46,7 @@ namespace MagicVillaWeb.Services
 
         public Task<T> ObtenerTodos<T>()
         {
-            return SendAsync<T>(new Modelos.APIRequest()
-            {
+            return SendAsync<T> (new Modelos.APIRequest(){
                 APITipo = DS.APITipo.GET,
                 Url = _villaUrl + "/api/villa/"
             });
@@ -56,8 +54,7 @@ namespace MagicVillaWeb.Services
 
         public Task<T> Remover<T>(int id)
         {
-            return SendAsync<T>(new Modelos.APIRequest()
-            {
+             return SendAsync<T> (new Modelos.APIRequest(){
                 APITipo = DS.APITipo.DELETE,
                 Url = _villaUrl + "/api/villa/" + id
             });

@@ -2,18 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MagicvillaWeb.Modelos.Dto;
+using MagicVillaWeb.Modelos.Dto;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MagicVillaWeb.Modelos.ViewModel
 {
-    public class NumerovillaUpdateViewModel
+    public class NumeroVillaUpdateViewModel
     {
         public NumeroVillaUpdateDto NumeroVilla { get; set; }
-        public IEnumerable<SelectListItem>? villaList { get; set; } = null!;
-        public NumerovillaUpdateViewModel()
+        public IEnumerable<SelectListItem>? villaList {get; set;} = null!;
+        public NumeroVillaUpdateViewModel()
         {
-            NumeroVilla = new NumeroVillaUpdateDto();
+
+            NumeroVilla= new NumeroVillaUpdateDto();
+            
         }
     }
 }

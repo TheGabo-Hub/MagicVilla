@@ -7,8 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = MagicvillaWeb
-build_property.RootNamespace = MagicvillaWeb
+build_property.RootNamespace = MagicVillaWeb
+build_property.RootNamespace = MagicVillaWeb
 build_property.ProjectDir = C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/gabri/OneDrive/Documents/TEC 8 SEMESTRE/NET/MagicVillaWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documents/TEC 8 SEMESTRE/NET/MagicVillaWeb/Views/Home/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gabri/OneDrive/Documents/TEC 8 SEMESTRE/NET/MagicVillaWeb/Views/Home/Privacy.cshtml]
@@ -78,8 +82,8 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/gabri/OneDrive/Documents/TEC 8 SEMESTRE/NET/MagicVillaWeb/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-7hclb13x1n
+build_metadata.AdditionalFiles.CssScope = b-dlxf93wz6w
 
 [C:/Users/gabri/OneDrive/Documents/TEC 8 SEMESTRE/NET/MagicVillaWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-9c5f4yrefc
+build_metadata.AdditionalFiles.CssScope = b-9buacr78bq

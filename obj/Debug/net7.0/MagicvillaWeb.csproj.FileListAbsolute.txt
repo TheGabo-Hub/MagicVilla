@@ -1,8 +1,114 @@
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.csproj.AssemblyReference.cache
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.AssemblyInfoInputs.cache
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.AssemblyInfo.cs
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.csproj.CoreCompileInputs.cache
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.RazorAssemblyInfo.cache
-C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicvillaWeb.RazorAssemblyInfo.cs
+C:\net\MagicVillaWeb\bin\Debug\net7.0\appsettings.Development.json
+C:\net\MagicVillaWeb\bin\Debug\net7.0\appsettings.json
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.staticwebassets.runtime.json
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.exe
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.deps.json
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.runtimeconfig.json
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.dll
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.pdb
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.AssemblyInfoInputs.cache
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.AssemblyInfo.cs
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.csproj.CoreCompileInputs.cache
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.RazorAssemblyInfo.cache
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.RazorAssemblyInfo.cs
+C:\net\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.MagicVillaWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\net\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.build.MagicVillaWeb.props
+C:\net\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MagicVillaWeb.props
+C:\net\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MagicVillaWeb.props
+C:\net\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.pack.json
+C:\net\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.build.json
+C:\net\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.development.json
+C:\net\MagicVillaWeb\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\net\MagicVillaWeb\obj\Debug\net7.0\scopedcss\bundle\MagicVillaWeb.styles.css
+C:\net\MagicVillaWeb\obj\Debug\net7.0\scopedcss\projectbundle\MagicVillaWeb.bundle.scp.css
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.dll
+C:\net\MagicVillaWeb\obj\Debug\net7.0\refint\MagicVillaWeb.dll
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.pdb
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.genruntimeconfig.cache
+C:\net\MagicVillaWeb\obj\Debug\net7.0\ref\MagicVillaWeb.dll
+C:\net\MagicVillaWeb\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.csproj.AssemblyReference.cache
+C:\net\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.csproj.CopyComplete
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVilla_utilidad.dll
+C:\net\MagicVillaWeb\bin\Debug\net7.0\MagicVilla_utilidad.pdb
+C:\net\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.dll
+C:\net\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\net\MagicVillaWeb\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.RazorAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWEb\obj\Debug\net7.0\MagicVillaWeb.RazorAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\appsettings.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.staticwebassets.runtime.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.exe
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.deps.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.runtimeconfig.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.dll
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.pdb
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVilla_utilidad.dll
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\bin\Debug\net7.0\MagicVilla_utilidad.pdb
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.MagicVillaWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.build.MagicVillaWeb.props
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MagicVillaWeb.props
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MagicVillaWeb.props
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\scopedcss\bundle\MagicVillaWeb.styles.css
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\scopedcss\projectbundle\MagicVillaWeb.bundle.scp.css
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.csproj.CopyComplete
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.dll
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\refint\MagicVillaWeb.dll
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.pdb
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Documents\jorge\MagicVillaWeb\obj\Debug\net7.0\ref\MagicVillaWeb.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.RazorAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.RazorAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\refint\MagicVillaWeb.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.pdb
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\appsettings.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.staticwebassets.runtime.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.exe
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.deps.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.runtimeconfig.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVillaWeb.pdb
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVilla_utilidad.dll
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\bin\Debug\net7.0\MagicVilla_utilidad.pdb
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.MagicVillaWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.build.MagicVillaWeb.props
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MagicVillaWeb.props
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MagicVillaWeb.props
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\scopedcss\bundle\MagicVillaWeb.styles.css
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\scopedcss\projectbundle\MagicVillaWeb.bundle.scp.css
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.csproj.CopyComplete
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\MagicVillaWeb.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Documents\TEC 8 SEMESTRE\NET\MagicVillaWeb\obj\Debug\net7.0\ref\MagicVillaWeb.dll
