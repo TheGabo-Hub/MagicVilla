@@ -7,17 +7,17 @@ using MagicVillaWeb.Modelos.Dto;
 
 namespace MagicVillaWeb
 {
-    public class MappingConfig: Profile
+    public class MappingConfig : Profile
     {
 
-        public  MappingConfig()
+        public MappingConfig()
         {
-            CreateMap<VillaDto,VillaCreateDto>().ReverseMap();
-            CreateMap<VillaDto,VillaUpdateDto>().ReverseMap();
+            CreateMap<VillaDto, VillaCreateDto>().ReverseMap();
+            CreateMap<VillaDto, VillaUpdateDto>().ReverseMap();
 
-            CreateMap<NumeroVillaDto,NumeroVillaCreateDto>().ReverseMap();
-             CreateMap<NumeroVillaDto,NumeroVillaUpdateDto>().ReverseMap();
-        
+            CreateMap<NumeroVillaDto, NumeroVillaCreateDto>().ReverseMap();
+            CreateMap<NumeroVillaDto, NumeroVillaUpdateDto>().ReverseMap();
+
+        }
     }
-}
 }
