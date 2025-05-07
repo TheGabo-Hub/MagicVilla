@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "MagicVillaWeb/1.0.0": {
+      "MagicvillaWeb/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
@@ -14,7 +14,7 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "MagicVillaWeb.dll": {}
+          "MagicvillaWeb.dll": {}
         }
       },
       "AutoMapper/12.0.0": {
@@ -70,7 +70,7 @@
     }
   },
   "libraries": {
-    "MagicVillaWeb/1.0.0": {
+    "MagicvillaWeb/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

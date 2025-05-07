@@ -1,5 +1,5 @@
 //ISC
-//Jorge Eduardo Arizmendi Jacobo
+//Kevin Angel Estrada de la Cruz
 //10/04/2025
 
 

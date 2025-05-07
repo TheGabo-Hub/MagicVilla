@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj": {}
+    "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj": {
+    "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj",
+        "projectUniqueName": "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj",
         "projectName": "MagicVillaWeb",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVillaWeb\\obj\\",
+        "projectPath": "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj",
+        "packagesPath": "C:\\Users\\estra\\.nuget\\packages\\",
+        "outputPath": "C:\\NET\\MagicVillaWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\estra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj": {
-                "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj"
+              "C:\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj": {
+                "projectPath": "C:\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj"
               }
             }
           }
@@ -78,17 +78,17 @@
         }
       }
     },
-    "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj": {
+    "C:\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj",
+        "projectUniqueName": "C:\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj",
         "projectName": "MagicVilla_utilidad",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documents\\TEC 8 SEMESTRE\\NET\\MagicVilla_utilidad\\obj\\",
+        "projectPath": "C:\\NET\\MagicVilla_utilidad\\MagicVilla_utilidad.csproj",
+        "packagesPath": "C:\\Users\\estra\\.nuget\\packages\\",
+        "outputPath": "C:\\NET\\MagicVilla_utilidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\estra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
