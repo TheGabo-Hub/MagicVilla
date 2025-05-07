@@ -1,4 +1,6 @@
 //Gabriel Ocampo Salgado
+//Ingenieria en sistemas computacionales
+//No control: 21670055
 //10/04/2025
 
 
