@@ -1,6 +1,5 @@
 //ISC
 //Kevin Angel Estrada de la Cruz
-//10/04/2025
 
 
 using MagicVillaWeb;

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj": {}
+    "C:\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj": {}
   },
   "projects": {
-    "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj": {
+    "C:\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj",
-        "projectName": "MagicVillaWeb",
-        "projectPath": "C:\\NET\\MagicVillaWeb\\MagicVillaWeb.csproj",
+        "projectUniqueName": "C:\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
+        "projectName": "MagicvillaWeb",
+        "projectPath": "C:\\NET\\MagicVillaWeb\\MagicvillaWeb.csproj",
         "packagesPath": "C:\\Users\\estra\\.nuget\\packages\\",
         "outputPath": "C:\\NET\\MagicVillaWeb\\obj\\",
         "projectStyle": "PackageReference",

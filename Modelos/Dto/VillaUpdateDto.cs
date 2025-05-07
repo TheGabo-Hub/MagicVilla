@@ -21,7 +21,7 @@ namespace MagicVillaWeb.Modelos.Dto
                 [Required]
         public int MetrosCuadrados { get; set; }
                 [Required]
-         public string? ImagenURL { get; set; }
+         public string? ImageUrl { get; set; }
     
          public string? Amenidad { get; set; }
 
