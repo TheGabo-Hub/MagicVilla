@@ -1,5 +1,4 @@
-//ISC
-//Jorge Eduardo Arizmendi Jacobo
+//Gabriel Ocampo Salgado
 //10/04/2025
 
 

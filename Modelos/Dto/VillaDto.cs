@@ -17,7 +17,7 @@ namespace MagicVillaWeb.Modelos.Dto
         public string? Detalle { get; set; } // ? que permite admitir nulos 
         public double Tarifa { get; set; } // ? que permite admitir nulos 
         public int MetrosCuadrados { get; set; }
-         public string? ImageURL { get; set; }
+         public string? ImageUrl { get; set; }
          public string? Amenidad { get; set; }
          public DateTime FechaCreacion { get; set; }
         public DateTime FechaActualizacion { get; set; }
