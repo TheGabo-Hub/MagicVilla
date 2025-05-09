@@ -20,21 +20,22 @@ namespace MagicVillaWeb.Controllers
         private readonly IMapper _mappers;
 
 
-        public VillaController(IVillaService villaService,IMapper mappers, ILogger<VillaController> logger)
+        public VillaController(IVillaService villaService, IMapper mappers, ILogger<VillaController> logger)
         {
-            _villaService=villaService;
-            _mappers=mappers;
+            _villaService = villaService;
+            _mappers = mappers;
 
         }
 
         [HttpGet("Index")]
         public async Task<IActionResult> IndexVilla()
         {
-            List<VillaDto> villalist= new();
+            List<VillaDto> villalist = new();
             var response = await _villaService.ObtenerTodos<ApiResponse>();
-            if (response !=null && response.IsExitoso){
+            if (response != null && response.IsExitoso)
+            {
 
-               villalist=JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Resultado)!)!;
+                villalist = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Resultado)!)!;
 
             }
             return View(villalist);
@@ -47,17 +48,20 @@ namespace MagicVillaWeb.Controllers
         // }
 
         [HttpGet("crear")]
-         public IActionResult CrearVilla(){
+        public IActionResult CrearVilla()
+        {
             return View();
         }
 
         [HttpPost("crear")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CrearVilla(VillaCreateDto modelo){
+        public async Task<IActionResult> CrearVilla(VillaCreateDto modelo)
+        {
             if (ModelState.IsValid)
             {
                 var response = await _villaService.Crear<ApiResponse>(modelo);
-                if(response != null && response.IsExitoso){
+                if (response != null && response.IsExitoso)
+                {
                     TempData["exitoso"] = "Villa Creada Exitosamente";
                     return RedirectToAction(nameof(IndexVilla));
                 }
@@ -66,13 +70,41 @@ namespace MagicVillaWeb.Controllers
             return View(modelo);
         }
         [HttpGet("Actualizar/{villaId}")]
-        public async Task<IActionResult> ActualizarVilla(int villaId){
+        public async Task<IActionResult> ActualizarVilla(int villaId)
+        {
             var response = await _villaService.Obtener<ApiResponse>(villaId);
-            if(response != null && response.IsExitoso){
-                    VillaDto modelo = JsonConvert.DeserializeObject<VillaDto>(Convert.ToString(response.Resultado)!)!;
-                    return View(_mappers.Map<VillaUpdateDto>(modelo));
-                }
-                return NotFound();
+            if (response != null && response.IsExitoso)
+            {
+                VillaDto modelo = JsonConvert.DeserializeObject<VillaDto>(Convert.ToString(response.Resultado)!)!;
+                return View(_mappers.Map<VillaUpdateDto>(modelo));
+            }
+            return NotFound();
+        }
+
+        [HttpGet("RemoverVilla/(villaId)")]
+        public async Task<IActionResult> Remover(int villaId)
+        {
+            var response = await _villaService.Obtener<ApiResponse>(villaId);
+            if (response != null && response.IsExitoso)
+            {
+                VillaDto modelo = JsonConvert.DeserializeObject<VillaDto>
+                (Convert.ToString(response.Resultado)!)!;
+                return View(modelo);
+            }
+            return NotFound();
+        }
+
+        [HttpPost("RemoverVilla")]
+        public async Task<IActionResult> RemoverVilla(VillaDto modelo)
+        {
+            var response = await _villaService.Remover<ApiResponse>(modelo.Id);
+            if (response != null && response.IsExitoso)
+            {
+                TempData["exitoso"] = "Villa Removida Exitosamente!";
+                return RedirectToAction(nameof(IndexVilla));
+            }
+            TempData["error"] = "Ocurrio un error al removerlo";
+            return View(modelo);
         }
     }
 }
