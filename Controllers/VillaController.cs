@@ -26,6 +26,7 @@ namespace MagicVillaWeb.Controllers
             _mappers = mappers;
 
         }
+        [HttpGet("Index")]
 
         [HttpGet("Index")]
         public async Task<IActionResult> IndexVilla()
@@ -47,13 +48,10 @@ namespace MagicVillaWeb.Controllers
         //     return View("Error!");
         // }
 
-        [HttpGet("crear")]
-        public IActionResult CrearVilla()
-        {
+         public IActionResult CrearVilla(){
             return View();
         }
-
-        [HttpPost("crear")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CrearVilla(VillaCreateDto modelo)
         {
@@ -69,9 +67,7 @@ namespace MagicVillaWeb.Controllers
             //regresamos a la vista para indicar que algo fallo
             return View(modelo);
         }
-        [HttpGet("Actualizar/{villaId}")]
-        public async Task<IActionResult> ActualizarVilla(int villaId)
-        {
+        public async Task<IActionResult> ActualizarVilla(int villaId){
             var response = await _villaService.Obtener<ApiResponse>(villaId);
             if (response != null && response.IsExitoso)
             {
