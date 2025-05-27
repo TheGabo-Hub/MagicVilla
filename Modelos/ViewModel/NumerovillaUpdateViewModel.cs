@@ -9,12 +9,12 @@ namespace MagicVillaWeb.Modelos.ViewModel
 {
     public class NumeroVillaUpdateViewModel
     {
-        public NumeroVillaUpdateDto NumeroVilla { get; set; }
+        public NumeroVillaUpdate NumeroVilla { get; set; }
         public IEnumerable<SelectListItem>? villaList {get; set;} = null!;
         public NumeroVillaUpdateViewModel()
         {
 
-            NumeroVilla= new NumeroVillaUpdateDto();
+            NumeroVilla= new NumeroVillaUpdate();
             
         }
     }

@@ -8,10 +8,13 @@ namespace MagicVillaWeb.Modelos.Dto
 {
     public class NumeroVillaCreateDto
     {
-        [Required]
-        public int VillaNo { get; set; }
-        [Required]
+       [Required]
+         public int VillaNo { get; set; }
+       [Required]
         public int VillaId { get; set; }
-        public string DetallEspecial { get; set; } = string.Empty;
+        
+        public string  DetalleEspecial{ get; set; } = string.Empty; // inicializamos una cadena vacia
+                
     }
+
 }

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MagicVillaWeb.Modelos.Dto
 {
-    public class NumeroVillaUpdateDto
+    public class NumeroVillaUpdate
     {
         [Required]
         public int VillaNo { get; set; }
         [Required]
         public int VillaId { get; set; }
-        public string DetallEspecial { get; set; } = string.Empty;
+        public string DetalleESpecial { get; set; } = string.Empty;
     }
 }

@@ -1,0 +1,45 @@
+@model IEnumerable<MagicVillaWeb.Modelos.Dto.NumeroVillaDto>
+@{
+    ViewData["Title"] = "IndexNumeroVilla";
+}
+
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <h1 class="text-primary">Lista de Numeros de Villas</h1>
+    </div>
+    @* pt-1: paddin top de 1 *@
+    <div class="col text-end pt-1">
+        <a asp-controller="NumeroVilla" asp-action="CrearNumeroVilla" class="btn btn-outline-primary">
+            <i class="bi bi-plus-square-fill"></i>Crear Nuevo Numero de Villa</a>
+    </div>
+     
+     <table class="table">
+        <thead>
+                <tr> 
+                    @* numero de la villa lo vamos a traer de la tabla villa *@
+                    <th>Nombre de la Villa</th>
+                    <th>Numero de Villa</th>
+                     <th></th>
+                </tr>
+        </thead>
+        <tbody>
+               @foreach (var item in Model)
+               {
+                  <tr>
+                    @* Como el nombre de la villa se encuentra en otro modelo vamos al NumeroVillaDto
+                    para agragegar una navegacion al modelo VillaDto. *@
+                    <td>@(item.Villa != null ? item.Villa.Nombre : "Sin nombre")</td>
+                    <td>@item.VillaNo</td>
+                    <td>
+                        <a asp-controller="NumeroVilla" asp-action="ActualizarNumeroVilla" asp-route-villaNo="@item.VillaNo" class="btn btn-success">
+                          <i class="bi bi-pencil-square"></i></a>
+                         <a asp-controller="NumeroVilla" asp-action="RemoverNumeroVilla"  asp-route-villaNo="@item.VillaNo" class="btn btn btn-danger">
+                           <i class="bi bi-trash-fill"></i></a>
+                    </td>
+                  </tr>
+
+               }
+        </tbody>
+
+     </table>
+</div>
